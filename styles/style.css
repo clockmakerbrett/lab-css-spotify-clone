@@ -6,3 +6,89 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+}
+
+article {
+  padding: 2rem;
+}
+
+.icon {
+  width: 5rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+#logo {
+  width: 4rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+#music {
+  background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 30rem;
+  margin-top: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#music p {
+  width: 20rem;
+}
+
+#yeezy {
+  background-color: #00b172;
+}
+
+#phone {
+  width: 10rem;
+}
+
+#logo {
+  width: 5rem;
+}
